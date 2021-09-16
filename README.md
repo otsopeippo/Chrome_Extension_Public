@@ -1,5 +1,5 @@
 # Chrome_Extension_Public
-Chrome extension that sends users browsing data to database and communicates with a RaspberryPi device to start or stop taking pictures.
+Chrome extension that sends users browsing data (including website domains, location and time user was active) to database and communicates with a RaspberryPi device to start or stop taking pictures.
 
 
 Start from here:
