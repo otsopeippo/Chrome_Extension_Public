@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Simple Extension",
+    "version": "1.0.0",
+    "description": "Rearrange your tabs by URL or gets current tab",
+    "permissions": [
+        "tabs", 
+        "storage", 
+        "activeTab",
+        "<all_urls>",
+        "geolocation",
+        "https://lopputyo-apim.azure-api.net/api/BrowsingEnd",
+        "https://lopputyo-apim.azure-api.net/api/BrowsingStart", 
+        "https://lopputyo-apim.azure-api.net/api/Raspberry"
+    ],
+
+    "browser_action": {
+        "default_icon": {
+            "128": "extension_logo.png"
+        }
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      }
+ 
+  }
